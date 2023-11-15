@@ -27,21 +27,21 @@ class DatabaseSeeder extends Seeder
             'birth_place'=>"Quito",
             'summary'=>"Estudiante de tercer año de ingenieria civil en computacion e informatica.",
             'age'=>"21",
-            'img_path'=>"../assets/download.png",
+            'img_path'=>'../assets/download.png',
         ]);
         Interests::create([
             'interest' => 'Programacion',
             'user_id' => $user->id,
-            'img_path'=>"../assets/programacion.jpg",
+            'img_path'=>'../assets/programacion.jpg',
         ]);
         Interests::create([
             'interest' => 'Anime',
             'user_id' => $user->id,
-            'img_path'=>"../assets/anime.png",
+            'img_path'=>'../assets/anime.png',
         ]);Interests::create([
             'interest' => 'Libros',
             'user_id' => $user->id,
-            'img_path'=>"../assets/libro.png",
+            'img_path'=>'/assets/libro.png',
         ]);
         Frameworks::create([
             'framework' => 'Laravel',

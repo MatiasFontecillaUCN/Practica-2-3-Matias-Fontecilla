@@ -25,14 +25,14 @@ function App() {
   console.log(data);
 
   return (
-    <div className="container">
+    <div className="container flex">
       {data ? (
         <>
           <div className="row mt-4">
             <Header name={data.user.name}></Header>
           </div>
-          <div className="row mt-4">
-            <div className="col-md-6 col-xs-8">
+          <div className="row mt-4 ">
+            <div className="col-md-6 col-xs-8 offset-md-3">
               <Summary
                 summary={data.user.summary}
                 img_path={data.user.img_path}
