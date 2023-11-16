@@ -43,15 +43,20 @@ $ php artisan migrate:fresh --seed
 $ php artisan serve
 ```
 # Instalacion Frontend-React
+
 ### Requisitos Previos ###
 
 * [Node.js](https://nodejs.org/en)
-
-### Paso 8: Instalar dependencias de react ###
+### Paso 8: Entrar a la carpeta de react ###
+Se debe estar en el directorio raiz de la aplicacion
+```+
+$ cd react-frontend
+```
+### Paso 9: Instalar dependencias de react ###
 ```+
 $ npm install
 ```
-### Paso 9: Iniciar aplicacion ###
+### Paso 10: Iniciar aplicacion ###
 ```+
 $ npm start
 ```
