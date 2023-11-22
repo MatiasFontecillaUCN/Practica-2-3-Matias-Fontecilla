@@ -36,7 +36,7 @@ $ php artisan key:generate
 ### Paso 6: Migrar y seedear base de datos ###
 
 ```+
-$ php artisan migrate:fresh --seed
+$ php artisan migrate --seed
 ```
 ### Paso 7: Ejecutar servidor ###
 ```+
