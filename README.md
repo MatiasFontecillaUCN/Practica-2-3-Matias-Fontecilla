@@ -10,6 +10,9 @@ Puede descargar el repositorio como un archivo ZIP o clonarlo usando Git en su t
 ```+
 git clone https://github.com/MatiasFontecillaUCN/Practica-2-3-Matias-Fontecilla.git
 ```
+```+
+cd Practica-2-3-Matias-Fontecilla/
+```
 
 # Instalar Backend-Laravel #
 
