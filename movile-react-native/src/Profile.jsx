@@ -30,7 +30,8 @@ const style = StyleSheet.create({
     height: 350,
   },
   pBar: {
-    marginTop: 20,
+    height:"15%",
+    width:"100%",
   },
 });
 const images = {
